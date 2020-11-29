@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.summary = 'BuildFaster'
 	s.homepage = 'https://github.com/samuelandkevin'
 	s.authors = { 'samuelandkevin' => '446570758@qq.com' }
-	s.source = { :git => 'https://github.com/samuelandkevin/BuildFaster', :branch => 'dev' }
+	s.source = { :git => 'git@github.com:samuelandkevin/BuildFaster.git', :branch => 'dev' }
         s.requires_arc = true
         s.ios.deployment_target = '10.0'
         s.source_files = 'Source/**/*.{h,m,c}'
