@@ -1,8 +1,12 @@
+
+plugin 'cocoapods-imy-bin'
+use_binaries!
+
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 def pods
- pod 'Alamofire', '5.2'
+    pod 'Alamofire', '5.2'
     pod 'AlamofireNetworkActivityIndicator'
     pod 'SwiftyJSON'
     pod 'Kingfisher', '4.9.0'
